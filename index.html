@@ -2,46 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Vadim Kolymbet</title>
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 40px;
-        }
-        a {
-            text-decoration: none;
-        }
-        .limpon {
-            display: inline-block;
-            width: 500px;
-            height: 500px;
-            background-image: url(img/limpon.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: -157px center;
-        }
-        .email{
-            display: inline-block;
-            width: 500px;
-            height: 500px;
-            background-image: url(img/email.png);
-            background-size: cover;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
-    <h1>List of my projects: </h1>
-    <ul>
-        <li>
-            <a href="https://vadimkol.github.io/limpon/">Limpon</a> 
-            <span class="limpon"></span>
-        </li>
-        <li>
-            <a href="https://vadimkol.github.io/mail/">Html email</a> 
-            <span class="email"></span>
-        </li>
-    </ul>
+    <header>
+        <h1><a href="#">List of my projects:</a></h1>
+        <hr>
+    </header>
+    <main>
+        <ul class="grid-list">
+            <li class="grid-list__item">
+                <p class="main_text">
+                    <a class="projects" href="https://vadimkol.github.io/limpon/">Limpon</a>(<a class="git" href="https://github.com/VadimKol/limpon" target="_blank">git</a>)
+                </p>
+                <a class="thumbnail limpon" target="_blank" href="img/limpon.png"></a>
+            </li>
+            <li class="grid-list__item">
+                <p class="main_text">
+                    <a class="projects" href="https://vadimkol.github.io/flaby/">Flaby</a>(<a class="git" href="https://github.com/VadimKol/flaby" target="_blank">git</a>)
+                </p>
+                <a class="thumbnail flaby" target="_blank" href="img/flaby.png"></a>
+            </li>
+            <li class="grid-list__item">
+                <p class="main_text">
+                    <a class="projects" href="https://vadimkol.github.io/mail/">Html email</a>(<a class="git" href="https://github.com/VadimKol/mail" target="_blank">git</a>)
+                </p>
+                <a class="thumbnail email" target="_blank" href="img/email_t.png"></a>
+            </li>
+            <li class="grid-list__item">
+                <p class="main_text">
+                    <a class="projects" href="https://vadimkol.github.io/grid/">Css grid</a>(<a class="git" href="https://github.com/VadimKol/grid" target="_blank">git</a>)
+                </p>
+                <a class="thumbnail grid" target="_blank" href="img/grid_t.png"></a>
+            </li>
+            <li class="grid-list__item">
+                <p class="main_text">
+                    <a class="projects" href="https://vadimkol.github.io/bukee/">Bukee</a>(<a class="git" href="https://github.com/VadimKol/bukee" target="_blank">git</a>)
+                </p>
+                <a class="thumbnail bukee" target="_blank" href="img/bukee.png"></a>
+            </li>
+        </ul>
+    </main>
+    <footer>
+        <hr>
+        <p>Powered by <a class="fab fa-github"href="https://github.com" target="_blank"></a></p>
+    </footer>
 </body>
 </html>
