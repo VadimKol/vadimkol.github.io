@@ -1,1 +1,118 @@
-body{font-family:Arial,Helvetica,sans-serif;font-size:40px;color:#fff;background-image:url(../img/bg_video.png);background-repeat:no-repeat;background-position:center;background-size:cover}a{text-decoration:none}p{margin:0}ul li{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse;-webkit-box-align:center;-ms-flex-align:center;align-items:center}h1 a{font-weight:500;color:#fff}.bg_video{position:fixed;right:50%;bottom:50%;-webkit-transform:translate(50%,50%);transform:translate(50%,50%);min-width:100%;min-height:100%;z-index:-1}.wrapper{max-width:1300px;padding:0 15px;margin:0 auto}.grid-list{padding:0;list-style-type:none;display:grid;display:-ms-grid;gap:20px 0;grid-template-areas:"a b c" "d e .";grid-template-columns:1fr 1fr 1fr}.grid-list__item:nth-child(1){grid-area:a}.grid-list__item:nth-child(2){grid-area:b}.grid-list__item:nth-child(3){grid-area:c}.grid-list__item:nth-child(4){grid-area:d}.grid-list__item:nth-child(5){grid-area:e}.thumbnail{display:inline-block;max-width:400px;width:100%;height:300px;background-size:cover;background-repeat:no-repeat;border:2px solid #ddd;border-radius:4px;padding:5px;background-clip:content-box;background-position:center top;-webkit-transition:border 0.2s,-webkit-box-shadow 0.2s;transition:border 0.2s,box-shadow 0.2s}.thumbnail:hover{-webkit-box-shadow:0 0 3px 1px rgba(0,140,186,.5);box-shadow:0 0 3px 1px rgba(0,140,186,.5);border:2px solid rgba(0,140,186,.5)}.projects,.git,.psd,.main_text,.fa-github{color:#fff}.projects{display:inline-block;text-align:center;-webkit-transition:color 0.2s,-webkit-box-shadow 0.2s;transition:color 0.2s,box-shadow 0.2s}.projects:hover,.git:hover,.psd:hover{color:rgba(0,140,186,.5);-webkit-box-shadow:0 2px;box-shadow:0 2px}.limpon{background-image:url(../img/limpon_t.png)}.email{background-image:url(../img/email_t.png)}.flaby{background-image:url(../img/flaby_t.png)}.grid{background-image:url(../img/grid_t.png)}.bukee{background-image:url(../img/bukee_t.png)}footer{text-align:center}.fa-github{-webkit-transition:color 0.2s;transition:color 0.2s}.fa-github:hover{color:rgba(0,140,186,.5)}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #fff;
+    background-image: url(../img/bg_video.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+a {
+    text-decoration: none;
+}
+p {
+    margin: 0;
+}
+ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    font-weight: 500;
+    color: #fff;
+}
+.bg_video {
+    position: fixed;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%,50%);
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+}
+.wrapper {
+    max-width: 1300px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.grid-list {
+    padding: 0;
+    list-style-type: none;
+    display: grid;
+    display: -ms-grid;
+    gap: 20px 0;
+    grid-template-areas: "a b c"
+                         "d e .";
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-list__item:nth-child(1) {
+    grid-area: a;
+}
+.grid-list__item:nth-child(2) {
+    grid-area: b;
+}
+.grid-list__item:nth-child(3) {
+    grid-area: c;
+}
+.grid-list__item:nth-child(4) {
+    grid-area: d;
+}
+.grid-list__item:nth-child(5) {
+    grid-area: e;
+}
+.thumbnail {
+    display: inline-block;
+    max-width: 400px;
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    background-clip: content-box;
+    background-position: center top;
+    transition: border 0.2s;
+}
+.thumbnail:hover {
+    border: 2px solid rgba(0, 140, 186, 0.5);
+}
+.git,
+.psd,
+.main_text,
+.fa-github {
+    color: #fff;
+}
+.git,
+.psd {
+    transition: color 0.2s;
+}
+.git:hover,
+.psd:hover {
+    color: rgba(0, 140, 186, 0.5);
+}
+.limpon {
+    background-image: url(../img/limpon_t.png);
+}
+.email {
+    background-image: url(../img/email_t.png);
+}
+.flaby {
+    background-image: url(../img/flaby_t.png);
+}
+.grid {
+    background-image: url(../img/grid_t.png);
+}
+.bukee {
+    background-image: url(../img/bukee_t.png);
+}
+footer {
+    text-align: center;
+}
+.fa-github {
+    transition: color 0.2s;
+}
+.fa-github:hover {
+    color: rgba(0, 140, 186, 0.5);
+}
