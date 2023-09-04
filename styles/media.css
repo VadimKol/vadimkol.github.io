@@ -31,19 +31,3 @@
         height: 192.75px;
     }
 }
-/* Safari 5.1-6.0, Chrome 10-24 */
-_::-moz-svg-foreign-content, :root .thumbnail {
-    width: 400px;
-}
-_::-moz-svg-foreign-content, :root .grid-list__item:nth-child(1) {
-    float: left;
-}
-_::-moz-svg-foreign-content, :root .grid-list__item:nth-child(4) {
-    float: left;
-}
-_::-moz-svg-foreign-content, :root .grid-list__item {
-    margin-bottom: 20px;
-}
-_::-moz-svg-foreign-content, :root .bg_video {
-    display: none;
-}
